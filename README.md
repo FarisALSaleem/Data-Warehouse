@@ -6,7 +6,9 @@ This repository was made for the "Data Warehouse" project by Udacity for their D
 # Purpose 
 
 In this project, we will be building a database hosted on Redshift for the startup Sparkify.
+
 Sparkifys has a growing user/song base and wants to move their storage solution to the cloud.
+
 Sparkifys user, song and metadata data resides in a S3 bucket in a JSON format.
 Our goals are to:
 - Create a redshift cluster
@@ -85,6 +87,7 @@ Our goals are to:
 
 # How to Run
 The Redshift cluster should be up before running the project.
+
 Enter DB credentials inside of dwh.cfg
 
 ```
