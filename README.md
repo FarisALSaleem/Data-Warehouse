@@ -9,11 +9,11 @@ In this project, we will be building a database hosted on Redshift for the start
 Sparkifys has a growing user/song base and wants to move their storage solution to the cloud.
 Sparkifys user, song and metadata data resides in a S3 bucket in a JSON format.
 Our goals are to:
-	- Create a redshift cluster
-	- Build ETL pipeline that:
-		- Extracts Sparkifys data from S3
-		- Stages them in Redshift
-		- Transforms data into a set of dimensional tables
+- Create a redshift cluster
+- Build ETL pipeline that:
+	- Extracts Sparkifys data from S3
+	- Stages them in Redshift
+	- Transforms data into a set of dimensional tables
 
 ------------------------
 
